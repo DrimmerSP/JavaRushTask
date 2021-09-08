@@ -13,7 +13,14 @@ public class Solution {
         System.out.println(duck2);
 
         //напишите тут ваш код
-
+        Cat cat1 = new Cat();
+        Cat cat2 = new Cat();
+        System.out.println(cat1);
+        System.out.println(cat2);
+        Dog dog1 = new Dog();
+        Dog dog2 = new Dog();
+        System.out.println(dog1);
+        System.out.println(dog2);
     }
 
     public static class Duck {
@@ -25,12 +32,12 @@ public class Solution {
     //напишите тут ваш код
     public static class Cat{
         public String toString(){
-            return "Meow";
+            return "Cat";
         }
     }
     public static class Dog{
         public String toString(){
-            return "woof";
+            return "Dog";
         }
     }
 }
